@@ -1,0 +1,18 @@
+name: Secundino
+description: 'Provides Secundino tipo de contenido and related configuration. Tipo de contenido con una barra lateral.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - ctools
+  - field
+  - field_group
+  - image
+  - language
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - views
+version: 8.x-1.0

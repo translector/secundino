@@ -1,0 +1,18 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.secundino
+  module:
+    - user
+id: node.secundino.teaser
+targetEntityType: node
+bundle: secundino
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

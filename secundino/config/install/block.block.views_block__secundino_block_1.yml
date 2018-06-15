@@ -1,0 +1,32 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.secundino
+  module:
+    - ctools
+    - views
+  theme:
+    - gmx
+id: views_block__secundino_block_1
+theme: gmx
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:secundino-block_1'
+settings:
+  id: 'views_block:secundino-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      secundino: secundino
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
